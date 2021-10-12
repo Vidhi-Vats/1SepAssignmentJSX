@@ -16,11 +16,11 @@ const Parentfunctionalcomponent = ()=>
 }
 
 
-const ChildFunctionalComponent = (Props) =>
+const ChildFunctionalComponent = (props) =>
 {
     return(
            <View style = {{paddingTop:30}}>
-               <Text>{Props.value}</Text>
+               <Text>{props.countervalue}</Text>
            </View>
     );
 }
